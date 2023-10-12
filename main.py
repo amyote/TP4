@@ -78,6 +78,7 @@ class Rectangle:
         self.x += self.changeX
         self.y += self.changeY
 
+        # Bouger les bords de detection de collision avec le rectangle.
         self.droiteMax += self.changeX
         self.gaucheMax += self.changeX
         self.hautMax += self.changeY
